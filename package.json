@@ -1,0 +1,41 @@
+{
+  "name": "@aqua/aquajs-scheduler",
+  "description": "aqua js scheduler",
+  "keywords": [
+    "scheduler"
+  ],
+  "homepage": "",
+  "license": "",
+  "version": "0.1.1",
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "maintainers": [
+    {
+      "name": "xxxxx",
+      "email": "xxxxx"
+    },
+    {
+      "name": "xxxxxx",
+      "email": "xxxxxx"
+    }
+  ],
+  "bugs": {
+    "url": "http://equinix.com/aquajs-logger"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:equinix/gse-common.git"
+  },
+  "dependencies": {
+    "agenda": "latest",
+    "agenda-ui": "latest"
+  },
+  "devDependencies": {
+    "nodeunit": "~>0.8.0"
+  },
+  "main": "./index.js",
+  "gypfile": true,
+  "readme": "aqua js logger",
+  "readmeFilename": "README.md"
+}
