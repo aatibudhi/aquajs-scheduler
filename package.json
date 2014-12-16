@@ -1,5 +1,5 @@
 {
-  "name": "@aqua/aquajs-scheduler",
+  "name": "aquajs-scheduler",
   "description": "aqua js scheduler",
   "keywords": [
     "scheduler"
