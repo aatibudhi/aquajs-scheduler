@@ -1,41 +1,28 @@
 {
   "name": "aquajs-scheduler",
+  "version": "0.1.2",
   "description": "aqua js scheduler",
+  "license": "ISC",
   "keywords": [
     "scheduler"
   ],
-  "homepage": "",
-  "license": "",
-  "version": "0.1.1",
-  "engines": {
-    "node": ">=0.6.0"
-  },
-  "maintainers": [
-    {
-      "name": "xxxxx",
-      "email": "xxxxx"
-    },
-    {
-      "name": "xxxxxx",
-      "email": "xxxxxx"
-    }
-  ],
-  "bugs": {
-    "url": "http://equinix.com/aquajs-logger"
-  },
+  "main": "./index.js",
+  "homepage": "https://github.com/aquajs/aquajs-scheduler",
   "repository": {
     "type": "git",
-    "url": "git://github.com:equinix/gse-common.git"
+    "url": "git://github.com:aquajs/aquajs-scheduler.git"
+  },
+  "bugs": {
+    "homepage": "https://github.com/aquajs/aquajs-scheduler/issues"
   },
   "dependencies": {
-    "agenda": "latest",
-    "agenda-ui": "latest"
+    "agenda": "*",
+    "agenda-ui": "*"
   },
   "devDependencies": {
     "nodeunit": "~>0.8.0"
   },
-  "main": "./index.js",
-  "gypfile": true,
-  "readme": "aqua js logger",
-  "readmeFilename": "README.md"
+  "publishConfig": {
+    "registry": "http://nexus.corp.equinix.com/nexus/content/repositories/Equinix-AquaJS-Release/"
+  }
 }
