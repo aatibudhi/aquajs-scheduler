@@ -1,8 +1,6 @@
 # Aqua Js Scheduler
 
-Aqua JS Scheduler framework:
-
-It is a light-weight job scheduling library for Node.js. It has a dependency on the mongodb.
+Aqua JS Scheduler framework is a light-weight job scheduling library for Node.js. It has a dependency on mongodb.
 
 Basic Features :
 
