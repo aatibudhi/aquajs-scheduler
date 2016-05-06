@@ -4,7 +4,7 @@ Aqua JS Scheduler framework is a light-weight job scheduling library for Node.js
 
 Basic Features :
 
-  - Scheduling with configurable priority, concurrency, and repeating;
+  - Scheduling with configurable priority, concurrency and repeating;
   - Scheduling via cron or human readable syntax;
   - Event backed job queue that you can hook into;
   - Agenda-ui to view the cron jobs.
